@@ -20,7 +20,7 @@
 	<script src="/messageforums-tool/js/datetimepicker.js"></script>
 	<script src="/library/js/lang-datepicker/lang-datepicker.js"></script>
 	<script type="module" src="/vuecomponents/js/sakai.min.js<h:outputText value="#{ForumTool.CDNQuery}" />"></script>
-	<link href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+	<link href="/library/webjars/jquery-ui/1.14.2/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 	<script type="module" src="/webcomponents/bundles/rubric-association-requirements.js<h:outputText value="#{ForumTool.CDNQuery}" />"></script>
 	
 	<%

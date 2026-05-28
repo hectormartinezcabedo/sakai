@@ -287,7 +287,7 @@ public class SettingsPage extends BasePage {
 
 		// Drag and Drop (requires jQueryUI)
 		response.render(
-				JavaScriptHeaderItem.forUrl(String.format("/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js%s", version)));
+				JavaScriptHeaderItem.forUrl(String.format("/library/webjars/jquery-ui/1.14.2/jquery-ui.min.js%s", version)));
 
 		response.render(JavaScriptHeaderItem.forUrl(String.format("/gradebookng-tool/scripts/gradebook-settings.js%s", version)));
 

@@ -38,7 +38,7 @@ $Id$
 
     <script src="/samigo-app/jsf/widget/hideDivision/hideDivision.js"></script>
     <script src="/library/webjars/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="/library/webjars/jquery-ui/1.14.2/jquery-ui.min.js"></script>
     <script src="/samigo-app/js/jquery.dynamiclist.student.preview.js"></script>
     <script src="/samigo-app/js/selection.student.preview.js"></script>
     <script src="/samigo-app/js/selection.author.preview.js"></script>

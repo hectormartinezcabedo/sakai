@@ -19,7 +19,7 @@
 <f:view>
 	<sakai:view title="#{msgs.pvt_forward}">
 		<link rel="stylesheet" href="/messageforums-tool/css/messages.css" type="text/css" />
-		<link rel="stylesheet" href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css" type="text/css" />
+		<link rel="stylesheet" href="/library/webjars/jquery-ui/1.14.2/jquery-ui.min.css" type="text/css" />
 		<script>includeLatestJQuery("msgcntr");</script>
 		<script src="/messageforums-tool/js/datetimepicker.js"></script>
 		<script src="/library/js/lang-datepicker/lang-datepicker.js"></script>

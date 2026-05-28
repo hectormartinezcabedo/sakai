@@ -483,6 +483,7 @@ public class MockCharonPortal extends HttpServlet
 					log.debug(thisLine);
 					if ( thisLine.indexOf("Error:") < 0 ) continue;
 					if ( thisLine.indexOf("is not recognized") > 0 ) continue;
+					if ( thisLine.indexOf("no se reconoce") > 0 ) continue;
 					log.info("Context Dump is " + rcontext.dump());
 					throw new RuntimeException("Error in HTML see "+errorFile+" "+thisLine);
 				} 

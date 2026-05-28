@@ -46,7 +46,7 @@ import org.sakaiproject.util.DateFormatterUtil;
 public class SakaiDateTimeField extends TextField<ZonedDateTime>
 {
 	private static final String DATEPICKERSCRIPT = "/library/js/lang-datepicker/lang-datepicker.js%s";
-	private static final String JQUERYUISCRIPT = "/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js%s";
+	private static final String JQUERYUISCRIPT = "/library/webjars/jquery-ui/1.14.2/jquery-ui.min.js%s";
 
 	private SakaiIsoDateConverter dateConverter;
 	private static final String DATEPICKER_FORMAT = "yyyy-MM-dd HH:mm:ss";

@@ -58,7 +58,7 @@ public class SakaiDateTimeField extends TextField<ZonedDateTime>
 	private static final String DATEPICKER_FORMAT_DATE_ONLY	= "yyyy-MM-dd";
 
 	// JavaScript references
-    private static final String JS_JQUERY_UI = "/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js" + PortalUtils.getCDNQuery();
+    private static final String JS_JQUERY_UI = "/library/webjars/jquery-ui/1.14.2/jquery-ui.min.js" + PortalUtils.getCDNQuery();
     private static final String JS_MOMENT = PortalUtils.getWebjarsPath() + "momentjs/" + PortalUtils.MOMENTJS_VERSION + "/min/moment-with-locales.min.js" + PortalUtils.getCDNQuery();
     private static final String JS_DATEPICKER = "/library/js/lang-datepicker/lang-datepicker.js" + PortalUtils.getCDNQuery();
     private static final PackageResourceReference JS_FIELD = new PackageResourceReference(SakaiDateTimeField.class, "res/SakaiDateTimeField.js");

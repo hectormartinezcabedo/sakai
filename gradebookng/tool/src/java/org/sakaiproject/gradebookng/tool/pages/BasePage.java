@@ -248,7 +248,7 @@ public class BasePage extends WebPage {
 		response.render(
 				new PriorityHeaderItem(
 						JavaScriptHeaderItem
-								.forUrl(String.format("/library/webjars/jquery-ui/1.12.1/jquery-ui.min.js%s", version))));											
+								.forUrl(String.format("/library/webjars/jquery-ui/1.14.2/jquery-ui.min.js%s", version))));											
 	}
 
 	/**

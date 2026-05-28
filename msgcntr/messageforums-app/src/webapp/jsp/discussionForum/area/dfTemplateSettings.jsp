@@ -17,7 +17,7 @@
 		<script src="/messageforums-tool/js/permissions_header.js"></script>
 		<script src="/messageforums-tool/js/forum.js"></script>
 		<script src="/messageforums-tool/js/messages.js"></script>
-		<link href="/library/webjars/jquery-ui/1.12.1/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+		<link href="/library/webjars/jquery-ui/1.14.2/jquery-ui.min.css" rel="stylesheet" type="text/css" />
 		<script src="/library/js/lang-datepicker/lang-datepicker.js"></script>
 
 <%
