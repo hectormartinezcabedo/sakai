@@ -108,7 +108,7 @@ var blankRubricRow;
 // Note from Chuck S. - Is there a strong reason to do this before ready()?
 // $(function () {
 $(document).ready(function () {
-  
+
   maxFileUploadSize = $("#mm-max-file-upload-size").text();
   accumulatedFileSize = 0;
   // if we're in morpheus, move breadcrums into top bar, and generate an H2 with the title
@@ -2838,7 +2838,9 @@ $(document).ready(function () {
     $('.usebutton').css('border', '1px solid black').css('padding', '1px 4px').css('color', 'black');
   }
 
-  $('.buttonset').buttonset();
+  if ($.fn.buttonset) {
+    $("#something").buttonset();
+}
 
   function fixhref(href, pageitemid, resourcetype, website) {
 
